@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "nodemon browserify /soldo/index.js -o /assets/bundle.js",
+    "f": "browserify index.js -o bundle.js"
+  },
+  "dependencies": {
+    "@walletconnect/core": "^2.14.0",
+    "@walletconnect/utils": "^2.14.0",
+    "@walletconnect/web3wallet": "^1.13.0",
+    "@web3modal/solana": "^5.0.9",
+    "rpc-websockets": "^7.11.2",
+    "tweetnacl": "^1.0.3",
+    "tweetnacl-util": "^0.15.1",
+    "web3modal": "^1.9.12"
+  },
+  "devDependencies": {
+    "babel-preset-es2016": "^6.16.0",
+    "babelify": "^10.0.0",
+    "webpack": "^5.93.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
